@@ -1,0 +1,46 @@
+{
+  "release_tag": "v1.6.7-offline",
+  "app_package": "com.yangtao.companion",
+  "min_android_api": 26,
+  "native_abi": "arm64-v8a",
+  "certificate_sha256": "613c048e5314f2eeca24c008e7b37686bbb326436fe552a0abce5c6669907a5e",
+  "recording_firmware": "yt-1.6.8-recording-r1",
+  "apps": [
+    {
+      "name": "asr.apk",
+      "version_name": "1.6.6",
+      "version_code": 26,
+      "bytes": 62641507,
+      "sha256": "39c3c4bf5fbf48dfec0f16bc13193022b9b7ce573a0fc74bbe8fa4226934bfd2",
+      "bundled_asr": true,
+      "bundled_summary": false,
+      "url": "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.6.7-offline/asr.apk"
+    },
+    {
+      "name": "model.apk",
+      "version_name": "1.6.7",
+      "version_code": 27,
+      "bytes": 478607438,
+      "sha256": "f6ee2c0a780ac10444d09799d2ff733f0f091099ec4a30ad00d6aca7152ca744",
+      "bundled_asr": true,
+      "bundled_summary": true,
+      "url": "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.6.7-offline/model.apk"
+    }
+  ],
+  "models": [
+    {
+      "asset": "assets/models/ggml-base-q5_1.bin",
+      "bytes": 59707625,
+      "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898"
+    },
+    {
+      "asset": "assets/models/Qwen3-0.6B-Q4_0.gguf",
+      "bytes": 428970080,
+      "sha256": "da2572f16c06133561ce56accaa822216f2391ef4d37fba427801cd6736417d4"
+    }
+  ],
+  "data_location": "phone-local",
+  "cloud_api_required_for_asr_or_summary": false,
+  "pairing_network_required_for_robot_recording": true,
+  "phone_summary_performance": "requires device validation"
+}
