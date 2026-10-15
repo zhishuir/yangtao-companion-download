@@ -8,20 +8,20 @@
   "apps": [
     {
       "name": "asr.apk",
-      "version_name": "1.6.6",
-      "version_code": 26,
-      "bytes": 62641507,
-      "sha256": "39c3c4bf5fbf48dfec0f16bc13193022b9b7ce573a0fc74bbe8fa4226934bfd2",
+      "version_name": "1.6.8",
+      "version_code": 30,
+      "bytes": 62785453,
+      "sha256": "756e25e29c2729fa4ad475f1beaaf287ca075bbd90d5fc47b5a8c51c38e5f226",
       "bundled_asr": true,
       "bundled_summary": false,
       "url": "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.6.7-offline/asr.apk"
     },
     {
       "name": "model.apk",
-      "version_name": "1.6.7",
-      "version_code": 27,
+      "version_name": "1.6.8",
+      "version_code": 31,
       "bytes": 478607438,
-      "sha256": "f6ee2c0a780ac10444d09799d2ff733f0f091099ec4a30ad00d6aca7152ca744",
+      "sha256": "8d41b70646283d19814fe3757df13c5ff47098c2c62027d1028b353a4e8b2365",
       "bundled_asr": true,
       "bundled_summary": true,
       "url": "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.6.7-offline/model.apk"
@@ -42,5 +42,7 @@
   "data_location": "phone-local",
   "cloud_api_required_for_asr_or_summary": false,
   "pairing_network_required_for_robot_recording": true,
-  "phone_summary_performance": "requires device validation"
+  "phone_summary_performance": "requires device validation",
+  "app_onboarding_screen": "removed in 1.6.8",
+  "download_url_policy": "stable existing release URLs; release tag is not the app version"
 }
