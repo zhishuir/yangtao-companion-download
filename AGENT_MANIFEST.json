@@ -38,12 +38,12 @@
     },
     "yangtao-manual-16p-105x99mm.pdf": {
       "bytes": 308961,
-      "sha256": "5bc8058b8b4cb93bb432b412f2b1716353e5adec69464a7e510e5b559f6336ad",
+      "sha256": "10343c1da0957669cb69e385aabb7af609e5aed573d030bf8f65f192d9449e13",
       "url": "https://github.com/zhishuir/yangtao-companion-download/raw/refs/heads/main/yangtao-manual-16p-105x99mm.pdf"
     },
     "yangtao-manual-16-single-pages.zip": {
-      "bytes": 1043027,
-      "sha256": "f608142e94b7bd34b7770248a8688843bf0389fb902759dff88d8a03efe783dd",
+      "bytes": 1043030,
+      "sha256": "17485d87f0b8da362d2418f4d107a103e8f3ef1eefcffc72783849a7fedb2a1d",
       "url": "https://github.com/zhishuir/yangtao-companion-download/raw/refs/heads/main/yangtao-manual-16-single-pages.zip"
     }
   }
