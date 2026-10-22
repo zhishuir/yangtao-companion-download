@@ -2,7 +2,22 @@
 
 一只装在口袋里的小伙伴：会眨眼、聊天、互动，也可以作为机器人收音的手机录音笔。
 
-## App 下载 · 两款选一个
+## 最新完整版本 · 杨桃 Agent
+
+| 安装位置 | 下载 | 功能 |
+| --- | --- | --- |
+| 安卓手机 | [agent.apk](https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.7.2-agent-public/agent.apk) · 约483MB | 录音、离线转写、手机离线摘要、直接文字任务及公网TeleAgent交接 |
+| Windows 电脑 | [YangTao.exe](https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.7.2-agent-public/YangTao.exe) · 约43MB | 免安装单文件连接器，需另外安装并登录TeleAgent |
+
+**两个文件分别用于手机和电脑，不是二选一。** 手机同签名覆盖升级，不要先卸载；电脑退出旧连接器后运行新版，主动点击“开启公网连接”。首次启动会解包运行依赖，可能需要几秒，不会自动开隧道。
+
+[TeleAgent 完整连接指导](TELEAGENT_GUIDE.md) · [新版16面说明书](yangtao-manual-16p-105x99mm.pdf) · [16个独立单页打印包](yangtao-manual-16-single-pages.zip) · [安装包校验](AGENT_MANIFEST.json)
+
+App 1.7.2 / 内部版本52；Windows 64位客户端。App内置转写和摘要模型，计算在手机上，不在ESP32上。新版机器人固件可录音30分钟，旧固件仍可能限制10分钟。录音要求手机与机器人局域网互通；手机发送电脑任务可以跨网络，也可以不录音直接输入任务。
+
+当前免费临时公网隧道重开会换网址并撤销旧凭据，需要重新配对，不保证持续在线。电脑须开机联网、连接器运行；交接时解锁、TeleAgent已登录且空闲。权限请求仍在电脑确认。HTTPS在Cloudflare终止，不是端到端加密。客户端未经商业代码签名，系统可能显示未知发行者；请核对来源和SHA256，不要关闭安全软件。
+
+## 保留的旧版 App · 原链接不变
 
 | 版本 | 安装包 | 大小 | 功能 |
 | --- | --- | ---: | --- |

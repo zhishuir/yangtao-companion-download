@@ -1,5 +1,7 @@
 # 杨桃 YangTao · 完整使用指南
 
+> 最新完整版本为[杨桃 Agent](TELEAGENT_GUIDE.md)：手机安装[agent.apk](https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.7.2-agent-public/agent.apk)，电脑运行[YangTao.exe](https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.7.2-agent-public/YangTao.exe)。新增公网TeleAgent交接、直接文字任务与30分钟录音支持（需新版机器人固件）。下方保留旧两款离线App的完整说明和原链接；新版请先阅读连接指导。
+
 > 适用于微雪 ESP32-S3-Touch-LCD-1.83 上的杨桃机器人。录音功能需配套普通版 yt-1.6.8-recording-r1 固件。App 1.6.8 提供内置模型的转写版 asr.apk、离线摘要版 model.apk。本文面向已完成基础配置的设备；换 Wi-Fi 可按下方步骤操作。
 
 ## 先认识杨桃

@@ -1,0 +1,50 @@
+{
+  "version": "1.7.2",
+  "date": "2026-10-22",
+  "android_version_code": 52,
+  "android_package": "com.yangtao.companion",
+  "signing_certificate_sha256": "613c048e5314f2eeca24c008e7b37686bbb326436fe552a0abce5c6669907a5e",
+  "windows": "64-bit, single-file, portable, no commercial code signature",
+  "requires_separately_installed_teleagent": true,
+  "starts_tunnel_automatically": false,
+  "firmware_changed": false,
+  "phone_retested": false,
+  "physical_print_tested": false,
+  "executable_diagnostic": {
+    "status": "PASS",
+    "version": "1.7.2",
+    "frozen": true,
+    "runtime_imports": true,
+    "pinned_tunnel": true,
+    "ui_started": false,
+    "tunnel_started": false,
+    "task_submitted": false
+  },
+  "guide": "https://github.com/zhishuir/yangtao-companion-download/blob/main/TELEAGENT_GUIDE.md",
+  "old_downloads_preserved": [
+    "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.6.7-offline/asr.apk",
+    "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.6.7-offline/model.apk"
+  ],
+  "files": {
+    "agent.apk": {
+      "bytes": 482846793,
+      "sha256": "2dda46ebb489a0e9a403b1fd31e2ed13106446eb667ba38d61f07719e44ea0da",
+      "url": "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.7.2-agent-public/agent.apk"
+    },
+    "YangTao.exe": {
+      "bytes": 43042343,
+      "sha256": "3d4be2301ba61669ef459aa6269004d7b511295981dab22315710974a305f9ef",
+      "url": "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.7.2-agent-public/YangTao.exe"
+    },
+    "yangtao-manual-16p-105x99mm.pdf": {
+      "bytes": 308961,
+      "sha256": "5bc8058b8b4cb93bb432b412f2b1716353e5adec69464a7e510e5b559f6336ad",
+      "url": "https://github.com/zhishuir/yangtao-companion-download/raw/refs/heads/main/yangtao-manual-16p-105x99mm.pdf"
+    },
+    "yangtao-manual-16-single-pages.zip": {
+      "bytes": 1043027,
+      "sha256": "f608142e94b7bd34b7770248a8688843bf0389fb902759dff88d8a03efe783dd",
+      "url": "https://github.com/zhishuir/yangtao-companion-download/raw/refs/heads/main/yangtao-manual-16-single-pages.zip"
+    }
+  }
+}
