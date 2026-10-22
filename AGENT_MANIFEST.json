@@ -37,13 +37,13 @@
       "url": "https://github.com/zhishuir/yangtao-companion-download/releases/download/v1.7.2-agent-public/YangTao.exe"
     },
     "yangtao-manual-16p-105x99mm.pdf": {
-      "bytes": 308961,
-      "sha256": "10343c1da0957669cb69e385aabb7af609e5aed573d030bf8f65f192d9449e13",
+      "bytes": 310476,
+      "sha256": "61ca6c98d77d7ca7c6b465ef2bde25ccb30623669fb641a443bfa36f2c4611a4",
       "url": "https://github.com/zhishuir/yangtao-companion-download/raw/refs/heads/main/yangtao-manual-16p-105x99mm.pdf"
     },
     "yangtao-manual-16-single-pages.zip": {
-      "bytes": 1043030,
-      "sha256": "17485d87f0b8da362d2418f4d107a103e8f3ef1eefcffc72783849a7fedb2a1d",
+      "bytes": 1046263,
+      "sha256": "26ba72ee45fd56b1d95ad3ee7f856f738254a659e6a616ce96a27f3e446aecd5",
       "url": "https://github.com/zhishuir/yangtao-companion-download/raw/refs/heads/main/yangtao-manual-16-single-pages.zip"
     }
   }
